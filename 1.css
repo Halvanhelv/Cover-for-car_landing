@@ -1,0 +1,560 @@
+body {
+    overflow-y: scroll;
+}
+
+.non_margin_paddind {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* Style for "bg" */
+    width: 100vw;
+    height: 250px;
+    background-color: #abeafa;
+}
+
+.logo {
+    /* Style for "surfhouse" */
+    width: 80%;
+    height: 50%;
+}
+
+.about_logo {
+    font-size: 10px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts_logo {
+    display: flex;
+
+}
+
+.logo_list {
+    padding-left: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sidebar {
+    background-color: #26d2fc;
+}
+
+p {
+
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar_hover {
+    transition: 0.4s;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar_hover:hover {
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+
+
+
+}
+
+.sidebar_menu {
+    background-color: black;
+    color: white;
+}
+
+.sliders {
+    display: flex;
+
+    align-items: center;
+
+
+
+
+
+
+
+}
+
+.shadow_slider {
+    padding: 0;
+    box-shadow: 0px 0px 0px 11px rgba(255, 255, 255, 1);
+    margin-top: 20px;
+
+
+}
+
+#leftbutton:active {
+    background-color: black;
+}
+
+#slider_object_3 {
+    transition: 0.4s;
+}
+
+.arrow {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-self: center;
+
+}
+
+
+
+.sliders_1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.discount {
+    /* Style for "€.1,270.15" */
+
+    color: #e24602;
+    font-family: "Roboto - Black Italic";
+
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+
+
+
+
+.owl-stage-outer {
+    padding-top: 50px;
+    
+}
+.owl-stage
+{
+    
+}
+
+.first_menu {
+    position: relative;
+    background-color: #26d2fc;
+
+    text-align: center;
+    padding: 1vw;
+
+
+
+}
+
+.padding {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #f8f8f8;
+}
+
+.second_menu {
+    position: absolute;
+    left: 100%;
+    opacity: 0;
+    top: -9999em;
+    width: 100%;
+    background-color: #26d2fc;
+    z-index: 2;
+
+
+
+
+
+}
+
+.owl-prev
+ {
+   position: absolute;
+   top: 40%;
+   left: 0px;
+   
+ }
+.owl-next
+{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    
+}
+.first_menu_element {
+    background-color: black;
+    padding: 1vw;
+    color: white;
+    text-align: center;
+
+}
+
+.first_menu:hover .second_menu {
+    top: 0;
+    opacity: 1;
+}
+
+.second_menu li {
+
+    width: 100%;
+
+    text-align: center;
+    padding: 1vw;
+
+
+
+}
+
+
+.side {
+    padding-top: 35px;
+
+}
+
+.side ul {
+    padding: 0;
+}
+
+A {
+    color: #333333;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 1vw;
+}
+
+A:active {
+
+    text-decoration: none;
+}
+
+.second_menu li:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+A:hover {
+
+    text-decoration: none;
+}
+
+.second_menu li:hover A {
+
+    color: #ffffff;
+    padding: 10px 0px 10px 20px;
+    transition: 0.5s all;
+
+
+}
+
+.side li:hover > A {
+    padding: 0.5vw 0px 0.5vw 1vw;
+    transition: 0.5s all;
+}
+
+
+
+.first_menu:hover {
+    background-color: #333333;
+
+}
+
+.first_menu:hover > a {
+    color: #ffffff;
+}
+
+#social_facebook {
+    background-color: #3b5997;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social_twitter {
+    background-color: #1CB7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#social_pinterest {
+    background-color: #cb2027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padding_social
+{
+    padding-top: 50px;
+}
+
+.social_images img {
+    width: 7vw;
+}
+
+.third_menu {
+    background-color: #9eeafd;
+}
+
+.shop_check {
+
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #aaaaaa;
+}
+
+.shop_check_number {
+    width: 2vw;
+    height: 2vw;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    color: #aaaaaa;
+
+}
+
+.shop_check_number:hover + .shop_check_text {
+    color: red;
+
+}
+
+.shop_check_text:hover {
+    color: red;
+}
+
+.product_list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.product_list li {
+    color: #333333;
+    font-family: "Roboto - Medium Italic";
+
+}
+
+.product_img {
+
+
+    padding: 0.4vw;
+    width: 50%;
+
+
+}
+
+.product_text {
+    font-size: 0.7vw;
+
+    text-align: left;
+
+
+    color: #707070;
+
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.justify {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_size {
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+
+
+.pekky {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.main_price_text {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.asd {
+
+    background-color: #fb4d01;
+    color: #fffefe;
+    font-family: "Roboto - Black";
+    text-transform: uppercase;
+    text-align: center;
+
+
+
+}
+
+.slider_background {
+    padding: 0.4vw;
+    background-color: white;
+    
+}
+.slider_background p
+{
+    font-size: 1vw;
+}
+
+.review_text {
+    font-size: 0.9vw;
+    padding: 5px;
+}
+
+.review_main_text {
+    font-size: 1vw;
+}
+
+.checkout {
+    width: 100%;
+    background-color: #333333;
+
+}
+
+.footer {
+    background-color: #373737;
+    height: 300px;
+}
+
+.footer_main_div {
+    padding-top: 4vw;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer_main_text {
+    padding-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.input_footer {
+    width: 10vw;
+    height: 30px;
+    text-align: center;
+    background-color: #fff51f;
+    border: 0;
+    font-size: 0.8vw;
+}
+
+.footer_button {
+    width: 5vw;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+     font-size: 0.8vw;
+    border: 0;
+}
+
+.pay {
+    display: flex;
+    padding: 0;
+    padding-top: 50px;
+}
+.pay > li
+{
+    padding-right: 15px;
+}
+.pay  img
+{
+    width: 100%;
+}
+.number
+{
+   
+    padding-top: 20px;
+}
+.number > a
+{
+    color: white;
+    font-size: 0.8vw;
+    font-family: Roboto;
+}
+
+.email
+{
+    padding-top: 20px;
+    
+}
+.email > a
+{
+    color: #faef03;
+  font-family: Roboto;
+}
+.footer_background
+{
+    background-color: #333333;
+    
+    height: 56px;
+    
+}
+.footer_background  p
+{
+    padding-top: 1vw;
+    font-size: 1vw;
+    color: #dad9d9;
+}
+.footer_icon
+{
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 1vw;
+
+    
+}
+.now_open
+{
+ margin-top: 50px;
+    width: 270px;
+    height: 270px;
+    background-color: #eaeaea;
+    font-size: 5vw;
+}
+.now_open > h1
+{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    transform: rotate(30deg);
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
